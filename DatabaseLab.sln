@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseLab", "DatabaseLab\DatabaseLab.csproj", "{973BB6AB-BAE7-4367-9EB1-25D0F4453E71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseConnector", "DatabaseConnector\DatabaseConnector.csproj", "{C3F25FF2-4485-4D1C-A1A3-333C27C5455D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{973BB6AB-BAE7-4367-9EB1-25D0F4453E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{973BB6AB-BAE7-4367-9EB1-25D0F4453E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{973BB6AB-BAE7-4367-9EB1-25D0F4453E71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F25FF2-4485-4D1C-A1A3-333C27C5455D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F25FF2-4485-4D1C-A1A3-333C27C5455D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F25FF2-4485-4D1C-A1A3-333C27C5455D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F25FF2-4485-4D1C-A1A3-333C27C5455D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

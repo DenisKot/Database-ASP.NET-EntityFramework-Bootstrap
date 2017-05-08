@@ -1,0 +1,30 @@
+﻿@using DatabaseConnector
+@model dynamic
+
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/_LayoutPage.cshtml";
+}
+
+<!-- Team Members Row -->
+<div class="row" style="margin-top: 60px;">
+    <div class="col-lg-12">
+        <h2 class="page-header">Користувачі з бази даних</h2>
+    </div>
+    @{
+        var users = ViewBag.users as IList<User>;
+        foreach (var user in users)
+        {
+            <div class="col-lg-4 col-sm-6 text-center">
+                @*<img class="img-circle img-responsive img-center" style="margin: auto" src="http://placehold.it/200x200" alt="">*@
+                <h3>
+                    @user.Name @user.Surname @user.LastName
+                </h3>
+                <p>Місто: @user.City</p>
+                <p>Місто: @user.Country</p>
+                <p>Телефон: @user.Phone</p>
+                <p><small>@user.Email</small></p>
+            </div>
+        }
+    }
+</div>
